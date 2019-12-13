@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+#header {
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-left: 0px;
+
+}
+
+#footer {
+    text-align: center;
+    margin-top: 10px;
+    background-color:#666666;
+    height: 50px;
+    padding: 15px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff
+}
+
+#profileImg {
+     float: left;
+     margin-right: 15px;
+     margin-bottom: 15px;
+     margin-left: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#nav {
+    float: right;
+    padding: 15px;
+    list-style-type: none;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+#nav a {
+    float:left;
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #777777;
+}
+
+h1 {
+    float: left;
+    margin-left: 240px;
+    padding: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+h3 {
+    color: #4aaaa5
+}
+
+.clearFix::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#para {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: justify;
+    margin-right: 20px;
+    color: #777777
+}
+
+#content {
+    background: white;
+    margin: 0 auto;
+    width: 960px;
+}

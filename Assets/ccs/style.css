@@ -11,7 +11,6 @@ body {
     background-color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     margin-left: 0px;
-
 }
 
 #footer {
@@ -91,3 +90,71 @@ h3 {
     margin: 0 auto;
     width: 960px;
 }
+
+#top {
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-left: 0px;
+}
+
+#coding {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    position: relative;
+}
+
+#food {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    position: relative;
+}
+
+#hobby {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    position: relative;
+}
+
+#hometown {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    position: relative;
+}
+
+#travel {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    position: relative;
+}
+
+#pic {
+    background: white;
+    margin: 0 auto;
+    width: 960px;
+    margin-top: 10px;
+}
+
+.image-box {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #fff
+  }
+  .image-box span {
+    background-color: rgb(49, 191, 203);
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 35px;
+  }

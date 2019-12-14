@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/ccs/style.css">
 
-    <meta charset="utf-8">
-
-    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
 </head>
-<body>
-    <h2>Contact</h2>
-
-    <form class="form">
-
-        <p class="Name">
-            <input name="name" type="text" id="name" placeholder="Maria Casale" />
-            <label for="name">name</label>
-        </p>
-
-        <p class="Email">
-            <input type="text" name="email" id="email" placeholder="example@gmail.com" />
-            <label for="email">email</label>
-        </p>
-
-        <p class="Message">
-            <textarea name="message" id="message">
-        </p>  
+ <body>
+    <div id="container">
+		<div id="up" class="clearFix">
+			<h1>Maria Casale</h1>
+            <nav id="nav">
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+        </div>
         
-        <p class="submit">
-            <imput type="submit" class="submit" value="submit" />
-        </p>
-        
+        <div id="content" class="clearFix">
+             <h3>Contact</h3>
+             <hr>
+             <form class="form">
 
-    </form>
+                <p class="Name">
+                <input name="name" type="text" id="name" placeholder="Maria Casale" />
+                <label for="name">name</label>
+                </p>
+
+                <p class="Email">
+                <input type="text" name="email" id="email" placeholder="example@gmail.com" />
+                <label for="email">email</label>
+                </p>
+
+                <p class="Message">
+                <textarea name="message" id="message">
+                </p>  
+        
+                <p class="submit">
+                <imput type="submit" class="submit" value="submit" />
+                </p>
+        </div>
+
+    </div>
+    <div id="footer" class="clearFix">
+        Copyright &copy;2019
+    </div>
+
 </body>
 </html>
